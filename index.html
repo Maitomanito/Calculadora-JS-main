@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Calculadora en JavaScript</h1>
+        </div>
+        <div class="calculadora">
+            <div>
+                <input class="pantalla" id="input" type="text" placeholder="0">
+            </div>
+            <div>
+                <button class="reset" onclick="reset()">reset</button>
+                <button class="operador" onclick="raiz()">√</button>
+                <button class="operador" onclick="boton('**')">^</button>
+                <button class="operador" onclick="boton('%')">%</button>
+            </div>
+            <div class="teclas">
+                <button onclick="boton(7)">7</button>
+                <button onclick="boton(8)">8</button>
+                <button onclick="boton(9)">9</button>
+                <button class="operador" onclick="boton('*')">x</button>
+            </div>
+            <div class="teclas">
+                <button onclick="boton(4)">4</button>
+                <button onclick="boton(5)">5</button>
+                <button onclick="boton(6)">6</button>
+                <button class="operador" onclick="boton('-')">-</button>
+            </div>
+            <div class="teclas">
+                <button onclick="boton(1)">1</button>
+                <button onclick="boton(2)">2</button>
+                <button onclick="boton(3)">3</button>
+                <button class="operador" onclick="boton('+')">+</button>
+            </div>
+            <div class="teclas">
+                <button onclick="boton('/')">/</button>
+                <button onclick="boton(0)">0</button>
+                <button class="total" onclick="total()">=</button>
+
+            </div>
+        </div>
+        <h2>Realizado por José Mauricio Romero <a href="">github</a></h2>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
