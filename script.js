@@ -21,8 +21,3 @@ function raiz(){
 function reset() {
     document.getElementById('input').value = '';
 }
-// //paraborrar
-//funcion de reset
-//function reset() {
- //   document.getElementById('input').value = '';
-//}
