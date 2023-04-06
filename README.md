@@ -2,7 +2,7 @@
 
 Ver deploy en [Github pages](https://maitomanito.github.io/Calculadora-JS-main/).
 
-Esta calculadora incluye las siguientes operaciones.
+Esta calculadora en javascript incluye las siguientes operaciones.
 
 
 - Suma
